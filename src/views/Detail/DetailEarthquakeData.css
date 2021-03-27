@@ -1,0 +1,46 @@
+.flotating-div{
+    position:absolute;
+    top: 15%;
+    width: 50%;
+    left: 30%;
+    background-color: antiquewhite;
+    height: 80%;
+    border-radius: 10px;
+}
+.content-data{
+    padding:10%;
+}
+.button-close{
+    position: absolute;
+    top: 3%;
+    right: 10%;
+}
+.titleCard{
+    text-align: center;
+}
+.img-static{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .content-data{
+        padding:2%;
+    }
+    .flotating-div{
+        position:absolute;
+        top: 15%;
+        width: 100%;
+        left: 0;
+        background-color: antiquewhite;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .img-static{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+  }
