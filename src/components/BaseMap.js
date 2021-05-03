@@ -7,7 +7,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import { useLocation } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
+mapboxgl.accessToken = 'PRIVATE_KEY';
 
 const BaseMap = () => {
     const history = useHistory();
